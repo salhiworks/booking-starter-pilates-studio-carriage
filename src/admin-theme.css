@@ -1,0 +1,9 @@
+/*
+ * The packaged dashboard keeps its own design. The site brands it with one
+ * thing — its accent, per appearance (INTEGRATION.md §10). Carriage's action
+ * colour is ultramarine carrying white text, so Light uses it as is; on the dark
+ * dashboard Dark uses birch (the reformer's wood) with night-ink text. Owner monogram,
+ * primary buttons, Confirm, focus rings, selection and the schedule's "now" line follow it.
+ */
+:root .pbe-admin[data-mode='light'] { --pbe-accent: #2330c4; --pbe-accent-text: #ffffff; } /* white on ultramarine ≈9.2:1 */
+:root .pbe-admin[data-mode='dark']  { --pbe-accent: #ead0a8; --pbe-accent-text: #0b0f2e; } /* birch on a near-black dashboard; night-ink text ≈13:1 */
